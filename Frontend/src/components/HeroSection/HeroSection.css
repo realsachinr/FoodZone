@@ -1,0 +1,31 @@
+*{
+    overflow: hidden;
+}
+.herosection-container{
+    position: relative;
+    width: 100vw;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+    /* height: 100vh; */
+}
+
+.data-container{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-back{
+    position: absolute;
+    width: 100vw;
+    filter: blur(2px);
+    object-fit: cover;
+    height: 100vh;
+    z-index: -1;
+}

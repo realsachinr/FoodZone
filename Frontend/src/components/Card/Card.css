@@ -1,0 +1,37 @@
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* height: 100% ; */
+    align-items: center;
+ 
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 238, 0, 0.526);
+    box-shadow: 2px 2px 10px  solid black;
+    justify-content: center;
+    /* padding: 1rem; */
+    /* z-index: 1; */
+    max-width: 28rem;
+}
+.box{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.food_img{
+    width: 15rem;
+    height: 9rem;
+    border-radius: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.rate{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10px;
+
+}
